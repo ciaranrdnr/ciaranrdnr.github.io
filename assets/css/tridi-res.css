@@ -586,8 +586,8 @@ input:checked + .toggle .star--6 {
             box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px -1px;
   }
   .toggleWrapper {
-    position: fixed;
-    top: 3.7%;
+    position: absolute;
+    top: 30px;
     right: 17%;
     overflow: hidden;
     -webkit-transform: translate3d(-50%, -50%, 0);
@@ -656,8 +656,8 @@ input:checked + .toggle .star--6 {
             box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px -1px;
   }
   .toggleWrapper {
-    position: fixed;
-    top: 3.7%;
+    position: absolute;
+    top: 30px;
     right: 40%;
     overflow: hidden;
     -webkit-transform: translate3d(-50%, -50%, 0);
@@ -665,9 +665,8 @@ input:checked + .toggle .star--6 {
   }
   .toggleWrapper input {
     position: absolute;
-    left: -45.45em;
   }
-  model-viewer {
+  .toggleWrapper model-viewer {
     margin-bottom: 7%;
   }
 }

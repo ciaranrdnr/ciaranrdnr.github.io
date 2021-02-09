@@ -263,7 +263,7 @@ $background: rgb(255, 255, 255);
     outline: none;
     color: #444444;
     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,1),
-    -4px -6px 6px 0 rgba(116, 125, 136, .2),
+    -2px -3px 3px 0 rgba(116, 125, 136, .1),
     7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     
@@ -274,7 +274,7 @@ $background: rgb(255, 255, 255);
   }
   .btn-2:active, .btn-2:visited, .btn-2:focus {
     box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+                -2px -2px 3px 0 rgba(116, 125, 136, .5), 
       inset -4px -4px 6px 0 rgba(255,255,255,.2),
       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
   }

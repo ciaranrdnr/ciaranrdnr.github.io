@@ -239,8 +239,8 @@ model-viewer {
   border: none;
   outline: none;
   color: #444444;
-  -webkit-box-shadow: inset 2px 2px 2px 0px white, -4px -6px 6px 0 rgba(116, 125, 136, 0.2), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: inset 2px 2px 2px 0px white, -4px -6px 6px 0 rgba(116, 125, 136, 0.2), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 2px 2px 2px 0px white, -2px -3px 3px 0 rgba(116, 125, 136, 0.1), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 2px 2px 2px 0px white, -2px -3px 3px 0 rgba(116, 125, 136, 0.1), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .btn-2:before {
@@ -249,8 +249,8 @@ model-viewer {
 }
 
 .btn-2:active, .btn-2:visited, .btn-2:focus {
-  -webkit-box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -2px -2px 3px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -2px -2px 3px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
 .btn-2:active, .btn-2:visited, .btn-2:focus {

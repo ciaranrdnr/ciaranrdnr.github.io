@@ -319,7 +319,7 @@ model-viewer {
   }
 }
 
-b.name {
+span.name {
   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(255, 255, 255, 0)), color-stop(0%, #dbdbdb));
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #dbdbdb 0%);
   background-position: -0% 0;
@@ -330,7 +330,7 @@ b.name {
   transition: background-position 0.5s ease-out;
 }
 
-b.name:hover {
+span.name:hover {
   background-position: -99.99% 0;
 }
 
@@ -587,7 +587,7 @@ input:checked + .toggle .star--6 {
   }
   .toggleWrapper {
     position: absolute;
-    top: 30px;
+    top: 31px;
     right: 17%;
     overflow: hidden;
     -webkit-transform: translate3d(-50%, -50%, 0);
@@ -657,7 +657,7 @@ input:checked + .toggle .star--6 {
   }
   .toggleWrapper {
     position: absolute;
-    top: 30px;
+    top: 31px;
     right: 40%;
     overflow: hidden;
     -webkit-transform: translate3d(-50%, -50%, 0);

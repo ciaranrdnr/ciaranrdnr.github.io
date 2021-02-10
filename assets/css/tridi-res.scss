@@ -331,7 +331,7 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
 
 //   name hover
 
-  b.name {
+  span.name {
     background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #dbdbdb 0%);
     background-position: -0% 0;
     background-size: 200% auto;
@@ -341,7 +341,7 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
     text-decoration: none;
     transition: background-position 0.5s ease-out;
   }
-  b.name:hover {
+  span.name:hover {
     background-position: -99.99% 0;
   }
 
@@ -640,7 +640,7 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
     }
     .toggleWrapper {
         position: absolute;
-        top: 30px;
+        top: 31px;
       // right: 40%;
         right: 17%;
         overflow: hidden;
@@ -736,7 +736,7 @@ nav{
 
 .toggleWrapper {
     position: absolute;
-    top: 30px;
+    top: 31px;
     right: 40%;
     overflow: hidden;
     // padding: 0 200px;

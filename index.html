@@ -39,10 +39,10 @@
                       <span class="star star--6"></span>
                     </label>
                   </div>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-end menu-center" id="navbarNavAltMarkup">
                   <ul class="nav navbar-nav navbar-right">
                     <li><a class="nav-item nav-link active border-bottom-animation" href="#">About <span class="sr-only">(current)</span></a></li>
-                    <li><a class="nav-item nav-link border-bottom-animation" href="#">Experiences</a></li> 
+                    <li><a class="nav-item nav-link border-bottom-animation" href="#experiences">Experiences</a></li> 
                     <li><a class="nav-item nav-link border-bottom-animation" href="#">Achievements</a></li> 
                     <li><a class="nav-item nav-link border-bottom-animation" href="#">Contact</a></li> 
                     
@@ -65,7 +65,7 @@
         <div class="col-sm-4 align-self-center">
             <p class="subtitle">Create, Innovate, Art, Reliable, Authentic.</p>
             <h1 class="title">Get to know me</h1>
-            <p class="body">Hi, I'm <b class="name">Ciara Nurdenara</b>. Student of Computer Science major at Telkom University. During my studies, I have been involved in different projects such as  UI design, game, website and software development. </p>    
+            <p class="body">Hi, I'm <span class="name">Ciara Nurdenara</span>. Student of Computer Science major at Telkom University. During my studies, I have been involved in different projects such as  UI design, game, website and software development. </p>    
             <ul class="soc inverted">
                     <li>
                     <a class="icon-8 email" href="mailto:ciaranurdenara.work@gmail.com" title="Email">
@@ -116,8 +116,11 @@
 </section>
 <!-- End Hero -->
 <!-- ====== Experiences ====== -->
-<section class="exp">
- 
+<section class="exp" id="experiences">
+  <model-viewer disable-zoom data-js-focus-visible id="3dlogo" camera-controls auto-rotate environment-image="neutral"  src="assets\3d\head.gltf"  
+  alt="Ciara's 3D Model" shadow-intensity="0.5" camera-controls=""  magic-leap="" 
+  camera-orbit="calc(15deg - env(body-scroll) * 30deg) 75deg auto" class="inverted" > 
+</model-viewer>
 </section>
 <!-- End Experiences -->
 </body>
@@ -183,6 +186,9 @@ window.dataLayer = window.dataLayer || [];
   gtag('js', new Date());
 
   gtag('config', 'G-5KML4S10YE');
+
+  // Active Scroll
+  
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KML4S10YE"></script>
 <script src="https://kit.fontawesome.com/dc373dc427.js" crossorigin="anonymous"></script>

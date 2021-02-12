@@ -56,7 +56,7 @@ html{
           .title{
               font-family: 'Rajdhani', sans-serif ;
               display: block;
-              font-size: 3.2em;
+              font-size: 4em;
               font-weight: 700;
             //   line-height: 1em;
             //   margin: -.3em 0 0 0 ;
@@ -225,11 +225,11 @@ $background: rgb(255, 255, 255);
 //   ==== Hero Button
 .custom-btn {
     width: 25%;
-    min-width: 100px;
+    min-width: 110px;
     height: 40px;
     color: #fff;
     border-radius: 5px;
-    margin: 6% 4px;
+    margin: 6% 8px;
     font-size: .9em;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -624,6 +624,7 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
 
 // End card
 
+// card exp
 
 
 
@@ -651,6 +652,48 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
           left: -45.45em;
         }
 }
+
+.hero{
+  margin-top: 0%;
+  font-weight: 300;
+//   background-color: #f3f3f3;
+//   grid-template-columns: auto auto auto auto;
+
+  .content{
+      margin-top:  0%;
+      text-align: left;
+     
+      .title{
+          font-family: 'Rajdhani', sans-serif ;
+          display: block;
+          font-size: 2.47em;
+          font-weight: 700;
+        //   line-height: 1em;
+        //   margin: -.3em 0 0 0 ;
+          
+      }
+      .subtitle{
+          letter-spacing: .1em;
+        //   line-height: 1em;
+        // margin-bottom: -.1rem;
+        //   font-size: .85em;
+      }
+      .body{
+          font-family: 'Lato', sans-serif;
+          text-align: justify;
+          font-family: 'Poppins', sans-serif;
+
+      }
+  }
+}
+
+.custom-btn {
+  width: 25%;
+  margin: 15px 8px 0 0;
+  min-width: 105px;
+  // font-size: 14px;
+}
+
 }
 //   ======== Mobile version
 

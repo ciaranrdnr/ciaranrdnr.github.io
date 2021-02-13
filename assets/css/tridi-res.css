@@ -9,8 +9,15 @@ html {
   scroll-behavior: smooth;
 }
 
-html {
-  background-color: white;
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #FF7192;
+}
+
+::selection {
+  color: white;
+  background: #FF7192;
 }
 
 nav {

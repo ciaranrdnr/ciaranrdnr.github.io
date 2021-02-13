@@ -10,10 +10,16 @@ html {
     // font-weight: 00;
     width: 100%;
     scroll-behavior: smooth;
+    
 }
-html{
-    background-color: white;
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #FF7192;
+}
 
+::selection {
+  color: white;
+  background: #FF7192;
 }
 
 // === Navbar

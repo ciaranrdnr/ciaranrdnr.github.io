@@ -967,6 +967,9 @@ footer .ciara3d {
 
 textarea {
   border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   width: 93%;
   font-size: .8em;
   padding: 1em;
@@ -976,10 +979,16 @@ textarea {
 
 textarea:focus {
   border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 textarea:active {
   border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .btn-submit {
@@ -1238,6 +1247,9 @@ textarea:active {
   }
   textarea {
     border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     width: 87%;
     margin-top: 1em;
     font-size: .8em;
@@ -1247,9 +1259,15 @@ textarea:active {
   }
   textarea:focus {
     border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   textarea:active {
     border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .btn-submit {
     margin-top: .8em;
@@ -1257,12 +1275,20 @@ textarea:active {
     background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
     color: white;
     width: 90%;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     font-weight: 500;
   }
   .btn-submit:hover {
     background-color: #67ebff;
     background: linear-gradient(315deg, #5aa6d4 50%, #a1f2ff 100%);
     color: white;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     width: 95%;
   }
 }
@@ -1472,6 +1498,9 @@ textarea:active {
   }
   textarea {
     border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     width: 84%;
     margin-top: .8em;
     padding: 1em;
@@ -1481,9 +1510,15 @@ textarea:active {
   }
   textarea:focus {
     border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   textarea:active {
     border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .btn-submit {
     margin-top: .8em;
@@ -1492,12 +1527,20 @@ textarea:active {
     color: white;
     width: 90%;
     font-weight: 500;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .btn-submit:hover {
     background-color: #67ebff;
     background: linear-gradient(315deg, #5aa6d4 50%, #a1f2ff 100%);
     color: white;
-    width: 95%;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: 90%;
   }
 }
 
@@ -1728,6 +1771,9 @@ textarea:active {
   }
   textarea {
     border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     width: 89%;
     margin-top: 1em;
     font-size: .8em;
@@ -1737,9 +1783,15 @@ textarea:active {
   }
   textarea:focus {
     border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   textarea:active {
     border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .btn-submit {
     margin-top: .8em;
@@ -1748,11 +1800,19 @@ textarea:active {
     color: white;
     width: 90%;
     font-weight: 500;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .btn-submit:hover {
     background-color: #67ebff;
     background: linear-gradient(315deg, #5aa6d4 50%, #a1f2ff 100%);
     color: white;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     width: 95%;
   }
 }

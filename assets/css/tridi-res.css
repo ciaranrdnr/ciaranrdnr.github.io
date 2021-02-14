@@ -523,7 +523,7 @@ section.exp h1 {
 }
 
 .card:hover .hover_content {
-  max-height: 20em;
+  max-height: 50em;
   -webkit-transform: none;
           transform: none;
 }
@@ -1190,7 +1190,7 @@ textarea:active {
     margin-bottom: .5em;
   }
   section.exp .card:hover .hover_content {
-    max-height: 10em;
+    max-height: 50em;
     -webkit-transform: none;
             transform: none;
   }
@@ -1369,7 +1369,7 @@ textarea:active {
     margin-bottom: .5em;
   }
   section.exp .card:hover .hover_content {
-    max-height: 10em;
+    max-height: 50em;
     -webkit-transform: none;
             transform: none;
   }
@@ -1607,7 +1607,7 @@ textarea:active {
     margin-bottom: .5em;
   }
   section.exp .card:hover .hover_content {
-    max-height: 10em;
+    max-height: 50em;
     -webkit-transform: none;
             transform: none;
   }

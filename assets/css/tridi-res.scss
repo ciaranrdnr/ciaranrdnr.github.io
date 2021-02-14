@@ -483,6 +483,7 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
           text-align: left;
           margin: 0em 0em 0 0;
           padding-left: 1em;
+          // padding-bottom: 0;
           color: #6E6E70;
           line-height: 1.4em;
         }
@@ -510,7 +511,7 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
         }
   
         .hover_content {
-          max-height: 20em;
+          max-height: 50em;
           transform: none;
         }
       }
@@ -1102,6 +1103,7 @@ textarea{
     .content {
       width: 18em;
       max-width: 80%;
+
     }
 
     .logo {
@@ -1136,7 +1138,7 @@ textarea{
     &:hover {
       width: 20em;
       box-shadow: 0 10px 20px 0 rgba(#202024, .12);
-
+      
       &::before {
         width: 100%;
         opacity: 1;
@@ -1155,7 +1157,7 @@ textarea{
       }
 
       .hover_content {
-        max-height: 10em;
+        max-height: 50em;
         transform: none;
       }
     }
@@ -1350,7 +1352,7 @@ textarea{
       }
 
       .hover_content {
-        max-height: 10em;
+        max-height: 50em;
         transform: none;
       }
     }
@@ -1612,7 +1614,7 @@ textarea{
           }
     
           .hover_content {
-            max-height: 10em;
+            max-height: 50em;
             transform: none;
           }
         }

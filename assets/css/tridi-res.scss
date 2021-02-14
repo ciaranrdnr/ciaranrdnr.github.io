@@ -390,6 +390,18 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
       display: flex;
       align-items: center;
       justify-content: center;
+      .card:hover{
+        .hand-icon{
+          visibility: hidden;
+          display: none;
+        }
+        .card:visited{
+          .hand-icon{
+            visibility: hidden;
+          display: none;
+          }
+        }
+      }
     }
     .card {
       position: relative;
@@ -459,6 +471,7 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
         text-align: justify;
         transform: translateY(1em);
         transition: all .55s ease;
+
   
         p {
           margin: 0em 0 0 0;
@@ -737,7 +750,99 @@ background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
   }
   }
 
+//
+// Hand animation
+// --------------------------------------
+.hand-icon {
+  position: absolute;
+  bottom: -5%;
+}
+.hand-icon:hover{
+  visibility: hidden;
+}
+.hand {
+  background: #999;
+  
+  width: 5px;
+  height: 16px;
+  border-radius: 20px;
+  position: relative;
+  left: -5px;
+  margin-bottom: 17px;
+  // transform: rotate(-20deg);
+  animation: handAnim 2s infinite;
 
+  // hand
+  &:after {
+    content: "";
+    background: #999;
+    width: 17px;
+    height: 18px;
+    border-radius: 4px 8px 38px 15px;
+    transform: rotate(6deg) skewY(10deg);
+    position: absolute;
+    top: 13px;
+    left: -1px;
+  }
+
+  // thumb
+  &:before {
+    content: "";
+    background: #999;
+    width: 6px;
+    height: 17px;
+    border-radius: 2px 40px 20px 20px;
+    position: absolute;
+    top: 12px;
+    left: -6px;
+    transform: rotate(-38deg);
+  }
+  
+  // circle
+  .circle {
+    background-color: #a3a3a3;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    opacity: .5;
+    animation: circleAnim 1s infinite 1.1s;
+  }
+}
+
+// Hand animation
+
+@keyframes handAnim {
+  0% {
+    // top: 20px;
+    opacity: 0;
+  }
+  10% {
+    opacity: .4;
+  }
+  50% {
+    opacity: .6;
+  }
+  70% {
+    opacity: .6;
+  }
+  100% {
+    // top: -20px;
+    opacity: 0;
+  }
+}
+// Circle animation
+@keyframes circleAnim {
+  from { 
+    transform: scale(0);
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
 // ===== footer
 footer{
     font-family: 'Poppins', sans-serif;

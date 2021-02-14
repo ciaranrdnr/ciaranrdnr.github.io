@@ -954,6 +954,113 @@ textarea:active {
 }
 
 @media screen and (max-width: 1072px) {
+  section.exp {
+    margin: 0 2em;
+    min-height: 350px;
+  }
+  section.exp .card {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: .9em;
+    cursor: pointer;
+    width: 20em;
+    max-width: 100%;
+    padding: 2em 0;
+    background: #FFF;
+    -webkit-box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+            box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+  }
+  section.exp .card::before, section.exp .card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    height: 4px;
+  }
+  section.exp .card::before {
+    width: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0 ease, width 0 ease;
+    transition: opacity 0 ease, width 0 ease;
+    -webkit-transition-delay: .5s;
+            transition-delay: .5s;
+  }
+  section.exp .card::after {
+    width: 100%;
+    background: white;
+    -webkit-transition: width .5s ease;
+    transition: width .5s ease;
+  }
+  section.exp .card .content {
+    width: 18em;
+    max-width: 80%;
+  }
+  section.exp .card .logo {
+    margin: 0 0 1em;
+    width: 10.625em;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+  }
+  section.exp .card h6 {
+    color: #999;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1em;
+    letter-spacing: 2px;
+  }
+  section.exp .card .hover_content {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transform: translateY(1em);
+            transform: translateY(1em);
+    -webkit-transition: all .55s ease;
+    transition: all .55s ease;
+  }
+  section.exp .card .hover_content p {
+    margin: 1.5em 0 0;
+    color: #6E6E70;
+    line-height: 1.4em;
+  }
+  section.exp .card:hover {
+    width: 20em;
+    -webkit-box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
+            box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
+  }
+  section.exp .card:hover::before {
+    width: 100%;
+    opacity: 1;
+    -webkit-transition: opacity .5s ease, width .5s ease;
+    transition: opacity .5s ease, width .5s ease;
+    -webkit-transition-delay: 0;
+            transition-delay: 0;
+  }
+  section.exp .card:hover::after {
+    width: 0;
+    opacity: 0;
+    -webkit-transition: width 0 ease;
+    transition: width 0 ease;
+  }
+  section.exp .card:hover .logo {
+    margin-bottom: .5em;
+  }
+  section.exp .card:hover .hover_content {
+    max-height: 10em;
+    -webkit-transform: none;
+            transform: none;
+  }
   .hero {
     margin-top: 0%;
     font-weight: 300;
@@ -971,6 +1078,118 @@ textarea:active {
 }
 
 @media screen and (max-width: 800px) {
+  section {
+    padding: 2.5em 2em;
+    text-align: center;
+    width: auto;
+  }
+  section.exp {
+    margin: 0 10em;
+    min-height: 350px;
+  }
+  section.exp .card {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: .9em;
+    cursor: pointer;
+    width: 20em;
+    max-width: 100%;
+    padding: 2em 0;
+    background: #FFF;
+    -webkit-box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+            box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+  }
+  section.exp .card::before, section.exp .card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    height: 4px;
+  }
+  section.exp .card::before {
+    width: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0 ease, width 0 ease;
+    transition: opacity 0 ease, width 0 ease;
+    -webkit-transition-delay: .5s;
+            transition-delay: .5s;
+  }
+  section.exp .card::after {
+    width: 100%;
+    background: white;
+    -webkit-transition: width .5s ease;
+    transition: width .5s ease;
+  }
+  section.exp .card .content {
+    width: 18em;
+    max-width: 80%;
+  }
+  section.exp .card .logo {
+    margin: 0 0 1em;
+    width: 10.625em;
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+  }
+  section.exp .card h6 {
+    color: #999;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1em;
+    letter-spacing: 2px;
+  }
+  section.exp .card .hover_content {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transform: translateY(1em);
+            transform: translateY(1em);
+    -webkit-transition: all .55s ease;
+    transition: all .55s ease;
+  }
+  section.exp .card .hover_content p {
+    margin: 1.5em 0 0;
+    color: #6E6E70;
+    line-height: 1.4em;
+  }
+  section.exp .card:hover {
+    width: 20em;
+    -webkit-box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
+            box-shadow: 0 10px 20px 0 rgba(32, 32, 36, 0.12);
+  }
+  section.exp .card:hover::before {
+    width: 100%;
+    opacity: 1;
+    -webkit-transition: opacity .5s ease, width .5s ease;
+    transition: opacity .5s ease, width .5s ease;
+    -webkit-transition-delay: 0;
+            transition-delay: 0;
+  }
+  section.exp .card:hover::after {
+    width: 0;
+    opacity: 0;
+    -webkit-transition: width 0 ease;
+    transition: width 0 ease;
+  }
+  section.exp .card:hover .logo {
+    margin-bottom: .5em;
+  }
+  section.exp .card:hover .hover_content {
+    max-height: 10em;
+    -webkit-transform: none;
+            transform: none;
+  }
   nav {
     font-family: 'Poppins', sans-serif;
     padding-right: 4em !important;
@@ -996,13 +1215,13 @@ textarea:active {
     font-weight: 300;
   }
   .hero .content {
-    margin-top: 0%;
+    margin-top: 3%;
     text-align: left;
   }
   .hero .content .title {
     font-family: 'Rajdhani', sans-serif;
     display: block;
-    font-size: 2.47em;
+    font-size: 2.2em;
     font-weight: 700;
   }
   .hero .content .subtitle {
@@ -1016,7 +1235,7 @@ textarea:active {
   }
   .custom-btn {
     width: 25%;
-    margin: 15px 8px 0 0;
+    margin: 15px 2px 0 0;
     min-width: 105px;
   }
 }

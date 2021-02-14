@@ -238,6 +238,11 @@ model-viewer {
   outline: none;
 }
 
+.custom-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* 1 */
 .btn-1:active, .btn-1:visited, .btn-1:focus {
   -webkit-box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);

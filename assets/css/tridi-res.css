@@ -525,6 +525,8 @@ section.exp h1 {
   cursor: pointer;
   padding: 8px 15px 10px 14px;
   border-radius: 100%;
+  -webkit-box-shadow: 0 0px 2px 0 rgba(68, 68, 68, 0.8);
+          box-shadow: 0 0px 2px 0 rgba(68, 68, 68, 0.8);
 }
 
 #scroll:hover {
@@ -756,10 +758,12 @@ input:checked + .toggle .star--6 {
 }
 
 footer {
+  font-family: 'Poppins', sans-serif;
   background-color: #eeeeee;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 2em;
 }
 
 footer .row {
@@ -1075,6 +1079,56 @@ textarea:active {
     font-size: 2.7em;
     font-weight: 700;
   }
+  .contact {
+    text-align: left;
+    -webkit-box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.15);
+            box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.15);
+    padding: 2em 1em;
+    border-radius: 1em;
+    margin: 2em 2em 2em 2em;
+    max-width: 406px;
+  }
+  .contact p {
+    font-size: .9em;
+    color: #999;
+    margin: 0em 0em;
+    text-align: justify;
+  }
+  .contact p#web {
+    display: none;
+  }
+  .contact p#mobile {
+    display: inline;
+  }
+  textarea {
+    border: none;
+    width: 87%;
+    margin-top: 1em;
+    font-size: .8em;
+    padding: 1em;
+    border-radius: .5em;
+    background: RGBA(255, 255, 255, 0.5);
+  }
+  textarea:focus {
+    border: none;
+  }
+  textarea:active {
+    border: none;
+  }
+  .btn-submit {
+    margin-top: .8em;
+    background-color: #67ebff;
+    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    color: white;
+    width: 90%;
+    font-weight: 500;
+  }
+  .btn-submit:hover {
+    background-color: #67ebff;
+    background: linear-gradient(315deg, #5aa6d4 50%, #a1f2ff 100%);
+    color: white;
+    width: 95%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -1237,6 +1291,77 @@ textarea:active {
     width: 25%;
     margin: 15px 2px 0 0;
     min-width: 105px;
+  }
+  footer {
+    background-color: #eeeeee;
+    display: block;
+  }
+  footer h1 {
+    font-size: 1em;
+  }
+  .explore {
+    margin: 2em 0em 0em 2em;
+  }
+  .social {
+    margin: 2em 0em 0em 0em;
+  }
+  .social h1 {
+    text-align: center;
+  }
+  .social p {
+    font-size: .8em;
+    color: #999;
+    text-align: center;
+  }
+  .contact {
+    text-align: left;
+    -webkit-box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.15);
+            box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.15);
+    padding: 2em 1em;
+    border-radius: 1em;
+    margin: 2em 2em 2em 2em;
+    max-width: 406px;
+  }
+  .contact p {
+    font-size: .8em;
+    color: #999;
+    margin: 0em 0em;
+    text-align: justify;
+  }
+  .contact p#web {
+    display: none;
+  }
+  .contact p#mobile {
+    display: inline;
+  }
+  textarea {
+    border: none;
+    width: 84%;
+    margin-top: 1em;
+    padding: 1em;
+    font-size: .8em;
+    border-radius: .5em;
+    background: RGBA(255, 255, 255, 0.5);
+  }
+  textarea:focus {
+    border: none;
+  }
+  textarea:active {
+    border: none;
+  }
+  .btn-submit {
+    margin-top: .8em;
+    background-color: #67ebff;
+    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    color: white;
+    width: 90%;
+    font-weight: 500;
+  }
+  .btn-submit:hover {
+    background-color: #67ebff;
+    background: linear-gradient(315deg, #5aa6d4 50%, #a1f2ff 100%);
+    color: white;
+    width: 95%;
   }
 }
 
@@ -1427,7 +1552,7 @@ textarea:active {
     display: block;
   }
   footer h1 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .explore {
     margin: 2em 0em 0em 2em;
@@ -1468,6 +1593,7 @@ textarea:active {
     border: none;
     width: 87%;
     margin-top: 1em;
+    font-size: .8em;
     padding: 1em;
     border-radius: .5em;
     background: RGBA(255, 255, 255, 0.5);

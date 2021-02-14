@@ -1269,9 +1269,10 @@ textarea{
 //   ======== Mobile version
 
 @media screen and (max-width: 550px) {
-  // .ciara3d{
-  //   visibility: hidden;
-  // }
+  .ciara3d{
+    visibility: hidden;
+    display: none;
+  }
     section{
         padding: 2.5em 2em;
         text-align: center;
@@ -1470,7 +1471,6 @@ nav{
       }
       model-viewer{
         margin-bottom: 7%;
-        display: none;
       }
       footer{
         background-color: #eeeeee;

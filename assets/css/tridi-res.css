@@ -460,10 +460,10 @@ section.exp h1 {
 
 .card h6 {
   color: #444444;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   margin: 0;
-  font-size: 1em;
+  font-size: .9em;
   letter-spacing: 2px;
 }
 
@@ -489,7 +489,9 @@ section.exp h1 {
 }
 
 .card .hover_content ul {
+  text-align: left;
   margin: 0em 0em 0 0;
+  padding-left: 1em;
   color: #6E6E70;
   line-height: 1.4em;
 }
@@ -1057,14 +1059,6 @@ textarea:active {
   transition: background-color .5s, transform .5s ease-out, -webkit-transform .5s ease-out;
 }
 
-@media (max-width: 480px) {
-  .half {
-    width: 100%;
-    float: none;
-    margin-bottom: 0;
-  }
-}
-
 .dark-mode {
   -webkit-filter: invert(0.85) hue-rotate(180deg);
           filter: invert(0.85) hue-rotate(180deg);
@@ -1094,7 +1088,7 @@ textarea:active {
 
 @media screen and (max-width: 1072px) {
   section.exp {
-    margin: 0 2em;
+    margin: 0 0em;
     min-height: 350px;
   }
   section.exp .card {
@@ -1153,11 +1147,11 @@ textarea:active {
     transition: all .35s ease;
   }
   section.exp .card h6 {
-    color: #999;
+    color: #444444;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
-    font-size: 1em;
+    font-size: .9em;
     letter-spacing: 2px;
   }
   section.exp .card .hover_content {
@@ -1332,11 +1326,11 @@ textarea:active {
     transition: all .35s ease;
   }
   section.exp .card h6 {
-    color: #999;
+    color: #444444;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
-    font-size: 1em;
+    font-size: .9em;
     letter-spacing: 2px;
   }
   section.exp .card .hover_content {
@@ -1570,11 +1564,11 @@ textarea:active {
     transition: all .35s ease;
   }
   section.exp .card h6 {
-    color: #999;
+    color: #444444;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
-    font-size: 1em;
+    font-size: .9em;
     letter-spacing: 2px;
   }
   section.exp .card .hover_content {

@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+}
+
 ::-moz-selection {
   /* Code for Firefox */
   color: white;
@@ -900,6 +905,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 2em;
   padding-bottom: 2em;
 }
 
@@ -1525,6 +1531,7 @@ textarea:active {
     width: 20em;
     max-width: 100%;
     padding: 2em 0;
+    left: -15px;
     background: #FFF;
     -webkit-box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
             box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
@@ -1581,7 +1588,7 @@ textarea:active {
     transition: all .55s ease;
   }
   section.exp .card .hover_content p {
-    margin: 1.5em 0 0;
+    margin: 0 0 1.5em 0;
     color: #6E6E70;
     line-height: 1.4em;
   }
@@ -1721,7 +1728,7 @@ textarea:active {
   }
   textarea {
     border: none;
-    width: 87%;
+    width: 89%;
     margin-top: 1em;
     font-size: .8em;
     padding: 1em;

@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, I'm Ciara Nurdenara. Student of Computer Science major at Telkom University. During my studies, I have been involved in various projects such as UI design, game, website and software development.">
     <title>Ciara Nurdenara</title>
     <link rel="icon" href="assets\logociara-col.svg">
+    <link rel="apple-touch-icon" href="assets\logociara-col.svg">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets\css\tridi-res.css">
-    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300;400;500;600;700&family=Rajdhani:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -20,11 +25,12 @@
         <header>
 
             <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-                <a class="navbar-brand" href="#"><img class="inverted"src="assets\logociara.png" alt="Ciara" style="width: 30px;"></a>
+                <a class="navbar-brand" href="https://ciara.tech" tabindex="-1"><img class="inverted"src="assets\logociara-col.svg" alt="Ciara" width="30px" height="30px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="toggleWrapper inverted">
+                  <label for="dn" class="toggle" hidden></label>
                     <input type="checkbox" class="dn" id="dn"/>
                     <label for="dn" class="toggle">
                       <span class="toggle__handler">
@@ -44,7 +50,7 @@
                   <ul class="nav navbar-nav navbar-right">
                     <li><a class="nav-item nav-link active border-bottom-animation" href="#about">About <span class="sr-only">(current)</span></a></li>
                     <li><a class="nav-item nav-link border-bottom-animation" href="#experiences">Experiences</a></li> 
-                    <li><a class="nav-item nav-link border-bottom-animation" href="#achievements">Achievements</a></li> 
+                    <li><a class="nav-item nav-link border-bottom-animation" href="#skills">Skills</a></li> 
                     <li><a class="nav-item nav-link border-bottom-animation" href="#portfolio">Portfolio</a></li> 
                     <li><a class="nav-item nav-link border-bottom-animation" href="#contact">Contact</a></li> 
                     
@@ -62,13 +68,13 @@
             <model-viewer data-js-focus-visible id="3dlogo" camera-controls auto-rotate environment-image="neutral"  src="assets\logociara.gltf"  
             alt="Ciara's Logo 3D Model" shadow-intensity="0.5" camera-controls=""  magic-leap="" 
             camera-orbit="calc(15deg - env(body-scroll) * 30deg) 75deg auto" > 
-            <img src="assets\logociara-col.svg" alt="" style="visibility: hidden;">
+            <img src="assets\logociara-col.svg" alt="" hidden width="100%">
         </model-viewer>
         </div>
         <div class="col-sm-4 align-self-center">
             <p class="subtitle">Create, Innovate, Act.</p>
             <h1 class="title">Get to know me</h1>
-            <p class="body">Hi, I'm <span class="name">Ciara Nurdenara</span>. Student of Computer Science major at Telkom University. During my studies, I have been involved in different projects such as  UI design, game, website and software development. </p>    
+            <p class="body">Hi, I'm <span class="name">Ciara Nurdenara</span>. Student of Computer Science major at Telkom University. During my studies, I have been involved in various projects such as  UI design, game, website and software development. </p>    
             <ul class="soc inverted">
                     <li>
                     <a class="icon-8 email" href="mailto:ciaranurdenara.work@gmail.com" title="Email">
@@ -109,7 +115,7 @@
                 
             </ul>
             <a href="#contact"><button class="custom-btn btn-1 inverted" >Contact me </button></a>
-            <button class="custom-btn btn-2 btn-invert">Download CV</button>
+            <a href="https://drive.google.com/file/d/1pZ_QZInzutLztZdiiofpXsAPr6gJkvIo/view?usp=sharing"><button class="custom-btn btn-2 btn-invert">View Resume</button></a>
         </div>
     </div>
     <span  id="experiences"></span>
@@ -121,17 +127,17 @@
 <hr class="solid">
 
 <section class="exp" >
-  <h1>My Journey</h1>
+  <h2>My Journey</h2>
 <div class="row">
   <div class="container container-exp col-sm">
     <div class="card">
       <div class="content">
-        <img class="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Telkom_Indonesia_2013.svg/1200px-Telkom_Indonesia_2013.svg.png" alt="mparticle">
-        <h6>Data Scientist Intern</h6>
-        <span> PT Telkom Indonesia Tbk</span>
-        <br><span> Aug 2020 - Jan 2021</span>
+        <img class="logo" src="https://media-exp3.licdn.com/dms/image/C560BAQEeOBkZUiJLgA/company-logo_100_100/0/1587710072295?e=1634169600&v=beta&t=kGTHNw_ToUHuntPNP1xzVU0fwmaIRuHrQSfRfZaPVvI" alt="YABB Logo">
+        <h3>Front End Engineer</h3>
+        <span> <a href="https://www.anakbangsabisa.org/">YABB</a> founded by Gojek</span>
+        <br><span> May 2021 - Present</span>
         <div class="hover_content">
-          <p>Did several research related to Computer Vision and contributed to the development of the Advance Technology Research Laboratory website.
+          <p>Intensive learning english course provided by <a href="https://cakap.com/">Cakap</a>, and soft skill training provided by <a href="https://generasigigih.elearn.id/">XL Future Leaders</a>, frontend courses provided by <a href="https://progate.com/">Progate</a> and hands on project mentored by GOJEK professionals. 
           </p>
         </div>
       </div>
@@ -145,17 +151,13 @@
         </div>
       </div>
       <div class="content">
-        <img class="logo inverted" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BANK_BRI_logo.svg/1280px-BANK_BRI_logo.svg.png" alt="mparticle">
-        <h6>UI/UX Designer Intern</h6>
-        <span> PT Bank Rakyat Indonesia, Tbk</span>
-        <br><span> Jun 2020 - Aug 2020</span>
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Telkom_Indonesia_2013.svg/1200px-Telkom_Indonesia_2013.svg.png" alt="Telkom Logo">
+        <h3>Data Scientist Intern</h3>
+        <span> PT Telkom Indonesia Tbk</span>
+        <br><span> Aug 2020 - Jan 2021</span>
         <div class="hover_content">
-          <ul>
-            <li>Revamp Ceria, Briguna, and Kreasi (Mobile App and Website).</li>
-            <li>Define unique selling points, goals, pain points, and persona.</li>
-            <li>Illustrate story boards, and made task flow. </li>
-            <li>Illustrate branding elements.</li>
-          </ul>
+          <p>Did several research related to Computer Vision and contributed to the development of the Advance Technology Research Laboratory website.
+          </p>
         </div>
       </div>
     </div>       
@@ -163,16 +165,16 @@
 <div class="container container-exp col-sm">
     <div class="card">
       <div class="content">
-        <img class="logo" src="https://telkomuniversity.ac.id/wp-content/uploads/2019/03/Logo-Telkom-University-png-3430x1174.png" alt="mparticle">
-        <h6>OOP Practicum Assistant</h6>
-        <span> Telkom University</span>
-        <br><span> Aug 2019 - Dec 2019</span>
+        <img class="logo inverted" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BANK_BRI_logo.svg/1280px-BANK_BRI_logo.svg.png" alt="Bank BRI Logo">
+        <h3>UI/UX Designer Intern</h3>
+        <span> PT Bank Rakyat Indonesia, Tbk</span>
+        <br><span> Jun 2020 - Aug 2020</span>
         <div class="hover_content">
         <ul>
-          <li>Supervise students solving Object Oriented Programming problem.</li>
-          <li>Provide study skills and materials.</li>
-          <li>Prepare the assignment test.</li>
-          <li>Check and Input students assignment score.</li>
+          <li>Revamp Ceria, Briguna, and Kreasi (Mobile App and Website).</li>
+          <li>Define unique selling points, goals, pain points, and persona.</li>
+          <li>Illustrate story boards, and made task flow. </li>
+          <li>Illustrate branding elements.</li>
         </ul>
         </div>
       </div>
@@ -180,16 +182,60 @@
 </div>
 
 </section>
-<span  id="achievements"></span>      
+<span  id="skills"></span>      
 
 <!-- End Experiences -->
 <hr class="solid">
-<!-- ====== Achievements ====== -->
-<section class="achievements">
-  <h1 style="color: #666;">Achievements</h1>
-  <img src="assets\logociara.svg" alt="" style="width: 18px; margin-right: 1em;"> 
-  <span style="color: #666;">Under Construction</span>
+<!-- ====== Skills ====== -->
+<section class="skills">
+  <h2>Industry Knowledge</h2>
+  <!-- <img src="assets\logociara.svg" alt="" style="width: 18px; margin-right: 1em;"> 
+  <span style="color: #666;">Under Construction</span> -->
 
+    <div class="container row center" id="skills-container">
+      <div class="skills-card col-6" id="design-card">
+        <!-- <img src="" alt="designer"> -->
+        <span class="iconify" data-icon="fluent:design-ideas-16-regular" data-inline="false" style="font-size: 4em;"></span>
+        <h3>Designer</h3>
+        <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+        <h4>Category</h4>
+        <div style="margin-bottom: 1rem;">
+          <div class="design" id="skill-mobile">Mobile/Desktop UI</div> 
+          <div class="design"id="skill-illus">Illustration</div> 
+          <div class="design"id="skill-logo">Logo</div>
+        </div>
+        
+        <h4>Tools</h4>
+        <div>
+          <div class="iconify design-tools" data-icon="file-icons:figma"  id="figma" data-inline="false"></div>
+          <div class="iconify design-tools" data-icon="file-icons:coreldraw-alt"  id="corel" data-inline="false"></div>
+          <div class="iconify design-tools" data-icon="simple-icons:affinitydesigner" id="affinity" data-inline="false"></div>
+        </div>
+      </div>
+
+      <div class="skills-card col-6" id="fe-card">
+        <!-- <img src="" alt="designer"> -->
+        <span class="iconify" data-icon="healthicons:desktop-app-outline" data-inline="false" style="font-size: 4em;"></span>
+        <h3>Front End</h3>
+        <p>I like to code things from scratch, and enjoy bringing ideas to life.</p>
+        <h4>Language & Framework</h4>
+        <div style="margin-bottom: 1rem;">
+          <div class="fe"id="skill-ci">CodeIgniter</div> 
+          <div class="fe" id="skill-js">JS</div> 
+          <div class="fe"id="skill-react">React</div>
+          <div class="fe"id="skill-ruby">Ruby</div>
+          <div class="fe"id="skill-sass">SASS</div>
+          <div class="fe"id="skill-swift">Swift</div> 
+          <div class="fe"id="skill-sql">SQL</div> 
+        </div>
+        
+        <h4>Tools</h4>
+        <div>
+          <div class="iconify fe-tools" data-icon="cib:visual-studio-code" data-inline="false"></div>
+          <div class="iconify fe-tools" data-icon="akar-icons:github-fill" data-inline="false"></div>
+        </div>
+      </div>
+    </div>
   <span  id="portfolio"  ></span>
 </section>
 <!-- End Achievements -->
@@ -213,7 +259,7 @@
           </model-viewer>  
         
       <div class="col-sm align-self-start explore">
-        <h1>About Ciara</h1>
+        <h5>Ciara's Website</h5>
         <ul class="no-bullets" > 
           <li><a class="" href="#about">About <span class="sr-only">(current)</span></a></li>
           <li><a class="" href="#experiences">Experiences</a></li> 
@@ -223,13 +269,13 @@
           
         </ul>
         <br>
-        <h1>Social</h1>
+        <h5>Social</h5>
         <ul class="soc-footer inverted">
         
           <li>
           <a class="icon-8 email" href="mailto:ciaranurdenara.work@gmail.com" title="Email">
             <div class="ir">
-              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="512" height="512">
+              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="32" height="32">
                 <path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"></path>
               </svg>
             </div>
@@ -238,7 +284,7 @@
         <li>
           <a class="icon-17 linkedin" href="https://www.linkedin.com/in/ciaranurdenara/" title="LinkedIn">
             <div class="ir">
-              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="512" height="512">
+              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="32" height="32">
                 <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path>
               </svg>
             </div>
@@ -247,7 +293,7 @@
         <li>
           <a class="icon-7 dribbble" href="https://www.dribbble.com/ciarand/" title="Dribbble">
             <div class="ir">
-              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="512" height="512">
+              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="32" height="32">
                 <path d="M256 68.4C152.4 68.4 68.4 152.4 68.4 256c0 103.6 84 187.6 187.6 187.6S443.6 359.6 443.6 256C443.6 152.4 359.6 68.4 256 68.4zM410.6 247.3c-40.3-6.6-77.3-7-111-1.1 -3.8-8.8-7.8-17.6-12-26.3 36.1-15.6 65.1-36.9 86.7-63.8C395.4 181 408.6 212.6 410.6 247.3zM350.5 133.4c-18.8 24.3-44.8 43.5-78 57.5 -15.9-29.1-34-57.5-54.5-85 12.2-3.1 24.9-4.9 38-4.9C291.6 101 324.3 113.2 350.5 133.4zM186.1 117.9c20.8 27.2 39.3 55.3 55.3 84.1 -38 11.2-83.4 16.9-135.8 17.3C116.4 175 146.3 138.1 186.1 117.9zM101 256c0-1.3 0.2-2.7 0.2-4 60.2-0.1 112.1-7 155.6-20.7 3.6 7.4 7.1 14.9 10.5 22.4 -52.8 16.5-96.4 50.4-130.3 101.3C114.5 328.2 101 293.6 101 256zM160.9 378.1c30.8-48.3 70.1-79.7 118.8-94.2 14.5 37.8 25.2 76.8 31.9 116.6 -17.3 6.7-36 10.5-55.6 10.5C220.1 411 187.2 398.6 160.9 378.1zM342 384.8c-6.9-36.8-16.9-72.8-30-107.8 29.3-4.1 61.6-3.1 96.9 3.1C402.1 323.6 377.2 361.3 342 384.8z"></path>
               </svg>
             </div>
@@ -256,7 +302,7 @@
         <li>
           <a class="icon-13 github" href="https://github.com/ciaranrdnr" title="GitHub">
             <div class="ir">
-              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="512" height="512">
+              <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="32" height="32">
                 <path d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"></path>
               </svg>
             </div>
@@ -265,12 +311,13 @@
     </ul>
       </div>
       <div class="col-sm contact align-self-center">
-        <h1>Get in touch</h1>
+        <h5>Get in touch</h5>
         <p id="web">Have a speaking engagement you'd like to discuss? <br> Just want to say hi?  
           Send me over a message.</p>
           <p id="mobile" >you are very welcome to contact me.</p>
           <form action="mailto:ciaranurdenara.work@gmail.com" method="post" enctype="text/plain">
-            <textarea name="Message" id="" cols="1" rows="2" placeholder="Message"></textarea>
+            <label for="message" hidden></label>
+            <textarea name="message" id="message" cols="1" rows="2" placeholder="Message"></textarea>
             <button type="submit" class="btn btn-submit">Send</button>
           </form>
       </div>
@@ -281,75 +328,7 @@
 
 <!-- End Footer -->
 </body>
-<script>
-// ===== Social Media
-//     const $ = s => document.querySelectorAll(s)
-// const on = (ev, el, cb) =>
-//   el.addEventListener(ev, e => cb(e, el))
-// $('a').forEach(el =>
-//   on('click', el, e => e.preventDefault())
-// )
-// End Social Media
-
-// === Scroll to Top
-
-//Get the button
-var mybutton = document.getElementById("scroll");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-// End Scroll to Top
-
-// === dark mode button
-const toggle = document.getElementById('dn');
-const body = document.body;
-
-toggle.addEventListener('input', e => {
-    const isChecked = e.target.checked;
-
-    if (isChecked) {
-        body.classList.add('dark-mode');
-        document.querySelectorAll(".inverted").forEach((result) => {
-        result.classList.toggle("invert");
-      });
-    
-    } else {
-        body.classList.remove('dark-mode');
-        document.querySelectorAll(".inverted").forEach((result) => {
-        result.classList.toggle("invert");
-      });
-    }
-});
-
-// end dark
-
-// Google Analytics
-window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5KML4S10YE');
-
-  // Active Scroll
-
-
-  // ==== card experience
-
-</script>
+<script src="assets/js/script.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KML4S10YE"></script>
 <script src="https://kit.fontawesome.com/dc373dc427.js" crossorigin="anonymous"></script>
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>

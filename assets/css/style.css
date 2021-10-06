@@ -1,5 +1,5 @@
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: white;
   color: #424242;
   width: 100%;
@@ -8,45 +8,50 @@ html {
 }
 
 html h1 {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 700;
 }
 
 html h2 {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 700;
 }
 
 html h3 {
   font-size: 1em;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
 html h4 {
-  font-size: .9em;
-  font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
 
 html h5 {
   font-size: 1em;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 700;
+}
+
+html a.container.container-exp.col-sm {
+  color: #424242;
+  text-decoration: none;
 }
 
 ::-moz-selection {
   color: white;
-  background: #FF7192;
+  background: #ff7192;
 }
 
 ::selection {
   color: white;
-  background: #FF7192;
+  background: #ff7192;
 }
 
 nav {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding-right: 8em !important;
   padding-left: 4em !important;
   background-color: white;
@@ -62,7 +67,7 @@ section {
   padding: 3.3em 1em;
   text-align: center;
   width: auto;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero {
@@ -75,7 +80,7 @@ section {
 }
 
 .hero .content .title {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   display: block;
   font-size: 4em;
   font-weight: 700;
@@ -83,13 +88,13 @@ section {
 
 .hero .content .subtitle {
   font-weight: 400;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
 }
 
 .hero .content .body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: justify;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .hero {
@@ -150,7 +155,9 @@ model-viewer {
 /* .soc{
     font-size: 10px;
 } */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
@@ -187,10 +194,11 @@ model-viewer {
 
 .soc li {
   display: inline-block;
-  margin: .6rem;
+  margin: 0.6rem;
 }
 
-.soc a, .soc svg {
+.soc a,
+.soc svg {
   display: block;
 }
 
@@ -204,10 +212,10 @@ model-viewer {
   fill: white;
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
-  -webkit-transition: background-color .5s, -webkit-transform .5s ease-out;
-  transition: background-color .5s, -webkit-transform .5s ease-out;
-  transition: background-color .5s, transform .5s ease-out;
-  transition: background-color .5s, transform .5s ease-out, -webkit-transform .5s ease-out;
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 
 .email {
@@ -215,7 +223,7 @@ model-viewer {
 }
 
 .email:hover {
-  background: linear-gradient(315deg, #FED672 60%, #ffebba 100%);
+  background: linear-gradient(315deg, #fed672 60%, #ffebba 100%);
 }
 
 .linkedin {
@@ -223,7 +231,7 @@ model-viewer {
 }
 
 .linkedin:hover {
-  background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+  background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
 }
 
 .github {
@@ -231,7 +239,7 @@ model-viewer {
 }
 
 .github:hover {
-  background: linear-gradient(315deg, #52BBCB 60%, #6bebff 100%);
+  background: linear-gradient(315deg, #52bbcb 60%, #6bebff 100%);
 }
 
 .dribbble {
@@ -239,7 +247,7 @@ model-viewer {
 }
 
 .dribbble:hover {
-  background: linear-gradient(315deg, #FF7192 60%, #ffa0b6 100%);
+  background: linear-gradient(315deg, #ff7192 60%, #ffa0b6 100%);
 }
 
 .custom-btn {
@@ -249,8 +257,8 @@ model-viewer {
   color: #fff;
   border-radius: 5px;
   margin: 6% 8px;
-  font-size: .9em;
-  font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   background: transparent;
   cursor: pointer;
@@ -269,12 +277,16 @@ model-viewer {
 }
 
 /* 1 */
-.btn-1:active, .btn-1:visited, .btn-1:focus {
+.btn-1:active,
+.btn-1:visited,
+.btn-1:focus {
   -webkit-box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
-.btn-1:active, .btn-1:visited, .btn-1:focus {
+.btn-1:active,
+.btn-1:visited,
+.btn-1:focus {
   border: none;
   outline: none;
 }
@@ -294,12 +306,16 @@ model-viewer {
   width: 2px;
 }
 
-.btn-2:active, .btn-2:visited, .btn-2:focus {
+.btn-2:active,
+.btn-2:visited,
+.btn-2:focus {
   -webkit-box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -2px -2px 3px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -2px -2px 3px 0 rgba(116, 125, 136, 0.5), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2), inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
-.btn-2:active, .btn-2:visited, .btn-2:focus {
+.btn-2:active,
+.btn-2:visited,
+.btn-2:focus {
   border: none;
   outline: none;
 }
@@ -318,15 +334,15 @@ model-viewer {
 .btn-1 {
   border: none;
   background: #fb2175;
-  background: -webkit-gradient(linear, right top, left top, color-stop(60%, #FF7192), to(#FFAB81));
-  background: linear-gradient(-90deg, #FF7192 60%, #FFAB81 100%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(60%, #ff7192), to(#ffab81));
+  background: linear-gradient(-90deg, #ff7192 60%, #ffab81 100%);
   color: #fff;
   overflow: hidden;
 }
 
 .btn-1:before {
   position: absolute;
-  content: '';
+  content: "";
   display: inline-block;
   top: -180px;
   left: 0;
@@ -338,7 +354,7 @@ model-viewer {
 }
 
 .btn-11:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .btn-11:active {
@@ -392,7 +408,7 @@ section.exp {
 }
 
 section.exp h1 {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 700;
 }
 
@@ -431,18 +447,18 @@ section.exp h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: .9em;
+  font-size: 0.9em;
   border: none;
   cursor: pointer;
   width: 20em;
   max-width: 100%;
   min-height: 160px;
   padding: 2em 0;
-  background: #FFF;
+  background: #fff;
   -webkit-box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
           box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
-  -webkit-transition: all .35s ease;
-  transition: all .35s ease;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 .card::before, .card::after {
@@ -451,7 +467,7 @@ section.exp h1 {
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+  background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
   height: 4px;
 }
 
@@ -460,15 +476,15 @@ section.exp h1 {
   opacity: 0;
   -webkit-transition: opacity 0 ease, width 0 ease;
   transition: opacity 0 ease, width 0 ease;
-  -webkit-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 
 .card::after {
   width: 100%;
   background: white;
-  -webkit-transition: width .5s ease;
-  transition: width .5s ease;
+  -webkit-transition: width 0.5s ease;
+  transition: width 0.5s ease;
 }
 
 .card .content {
@@ -484,8 +500,8 @@ section.exp h1 {
   margin: 0 0 1em;
   max-width: 10.625em;
   max-height: 70px;
-  -webkit-transition: all .35s ease;
-  transition: all .35s ease;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 .card h2 {
@@ -493,13 +509,13 @@ section.exp h1 {
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
-  font-size: .9em;
+  font-size: 0.9em;
   letter-spacing: 2px;
 }
 
 .card span {
   color: #999;
-  font-size: .8em;
+  font-size: 12px;
 }
 
 .card .hover_content {
@@ -508,13 +524,13 @@ section.exp h1 {
   text-align: justify;
   -webkit-transform: translateY(1em);
           transform: translateY(1em);
-  -webkit-transition: all .55s ease;
-  transition: all .55s ease;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
 }
 
 .card .hover_content p {
   margin: 0em 0 0 0;
-  color: #6E6E70;
+  color: #6e6e70;
   line-height: 1.4em;
 }
 
@@ -526,7 +542,7 @@ section.exp h1 {
   text-align: left;
   margin: 0em 0em 0 0;
   padding-left: 1em;
-  color: #6E6E70;
+  color: #6e6e70;
   line-height: 1.4em;
 }
 
@@ -539,8 +555,8 @@ section.exp h1 {
 .card:hover::before {
   width: 100%;
   opacity: 1;
-  -webkit-transition: opacity .5s ease, width .5s ease;
-  transition: opacity .5s ease, width .5s ease;
+  -webkit-transition: opacity 0.5s ease, width 0.5s ease;
+  transition: opacity 0.5s ease, width 0.5s ease;
   -webkit-transition-delay: 0;
           transition-delay: 0;
 }
@@ -553,7 +569,7 @@ section.exp h1 {
 }
 
 .card:hover .logo {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .card:hover .hover_content {
@@ -597,25 +613,28 @@ section.exp h1 {
   font-size: 14px;
 }
 
-.skills #skills-container .skills-card .design, .skills #skills-container .skills-card .fe {
+.skills #skills-container .skills-card .design,
+.skills #skills-container .skills-card .fe {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 12px;
-  padding: .4rem;
-  border-radius: .4rem;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
   display: inline-flex;
   background-color: rgba(255, 113, 146, 0.2);
-  margin: .2rem;
+  margin: 0.2rem;
 }
 
-.skills #skills-container .skills-card .design-tools, .skills #skills-container .skills-card .fe-tools {
+.skills #skills-container .skills-card .design-tools,
+.skills #skills-container .skills-card .fe-tools {
   color: #999;
-  margin: 0 .8rem;
+  margin: 0 0.8rem;
   font-size: 1.2rem;
 }
 
-.skills #skills-container .skills-card .design-tools :hover, .skills #skills-container .skills-card .fe-tools :hover {
+.skills #skills-container .skills-card .design-tools :hover,
+.skills #skills-container .skills-card .fe-tools :hover {
   color: #666;
 }
 
@@ -628,7 +647,7 @@ section.exp h1 {
   font-size: 18px;
   border: none;
   outline: none;
-  background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+  background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
   color: white;
   cursor: pointer;
   padding: 8px 15px 10px 14px;
@@ -638,7 +657,7 @@ section.exp h1 {
 }
 
 #scroll:hover {
-  background: linear-gradient(315deg, #52BBCB 60%, #6bebff 100%);
+  background: linear-gradient(315deg, #52bbcb 60%, #6bebff 100%);
 }
 
 .toggleWrapper {
@@ -661,7 +680,7 @@ section.exp h1 {
   position: relative;
   width: 45px;
   height: 25px;
-  background-color: #83D8FF;
+  background-color: #83d8ff;
   border-radius: 39px;
   -webkit-transition: background-color 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
   transition: background-color 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -675,7 +694,7 @@ section.exp h1 {
   left: 2.5px;
   width: 19px;
   height: 19px;
-  background-color: #FFCF96;
+  background-color: #ffcf96;
   border-radius: 25px;
   -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
           box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
@@ -687,7 +706,7 @@ section.exp h1 {
 
 .toggle__handler .crater {
   position: absolute;
-  background-color: #E8CDA5;
+  background-color: #e8cda5;
   opacity: 0;
   -webkit-transition: opacity 200ms ease-in-out;
   transition: opacity 200ms ease-in-out;
@@ -790,7 +809,7 @@ input:checked + .toggle {
 }
 
 input:checked + .toggle:before {
-  color: #749ED7;
+  color: #749ed7;
 }
 
 input:checked + .toggle:after {
@@ -798,7 +817,7 @@ input:checked + .toggle:after {
 }
 
 input:checked + .toggle .toggle__handler {
-  background-color: #FFE5B5;
+  background-color: #ffe5b5;
   -webkit-transform: translate3d(20px, 0, 0) rotate(0);
           transform: translate3d(20px, 0, 0) rotate(0);
 }
@@ -920,7 +939,7 @@ input:checked + .toggle .star--6 {
   position: absolute;
   top: -7px;
   left: -7px;
-  opacity: .5;
+  opacity: 0.5;
   -webkit-animation: circleAnim 1s infinite 1.1s;
           animation: circleAnim 1s infinite 1.1s;
 }
@@ -930,13 +949,13 @@ input:checked + .toggle .star--6 {
     opacity: 0;
   }
   10% {
-    opacity: .4;
+    opacity: 0.4;
   }
   50% {
-    opacity: .6;
+    opacity: 0.6;
   }
   70% {
-    opacity: .6;
+    opacity: 0.6;
   }
   100% {
     opacity: 0;
@@ -948,13 +967,13 @@ input:checked + .toggle .star--6 {
     opacity: 0;
   }
   10% {
-    opacity: .4;
+    opacity: 0.4;
   }
   50% {
-    opacity: .6;
+    opacity: 0.6;
   }
   70% {
-    opacity: .6;
+    opacity: 0.6;
   }
   100% {
     opacity: 0;
@@ -986,7 +1005,7 @@ input:checked + .toggle .star--6 {
 }
 
 footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #eeeeee;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1019,7 +1038,7 @@ footer .ciara3d {
   /* Remove padding */
   margin: 0;
   /* Remove margins */
-  font-size: .8em;
+  font-size: 12px;
   line-height: 2em;
 }
 
@@ -1042,7 +1061,7 @@ footer .ciara3d {
 }
 
 .contact p {
-  font-size: .8em;
+  font-size: 12px;
   color: #999;
   text-align: center;
 }
@@ -1057,9 +1076,9 @@ textarea {
   -webkit-box-shadow: none;
           box-shadow: none;
   width: 93%;
-  font-size: .8em;
+  font-size: 12px;
   padding: 1em;
-  border-radius: .5em;
+  border-radius: 0.5em;
   background: RGBA(255, 255, 255, 0.5);
 }
 
@@ -1078,9 +1097,9 @@ textarea:active {
 }
 
 .btn-submit {
-  margin-top: .8em;
+  margin-top: 0.8em;
   background-color: #67ebff;
-  background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+  background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
   color: white;
   width: 95%;
   font-weight: 500;
@@ -1106,10 +1125,11 @@ textarea:active {
 
 .soc-footer li {
   display: inline-block;
-  margin: .6rem;
+  margin: 0.6rem;
 }
 
-.soc-footer a, .soc-footer svg {
+.soc-footer a,
+.soc-footer svg {
   display: block;
 }
 
@@ -1155,10 +1175,10 @@ textarea:active {
   fill: white;
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
-  -webkit-transition: background-color .5s, -webkit-transform .5s ease-out;
-  transition: background-color .5s, -webkit-transform .5s ease-out;
-  transition: background-color .5s, transform .5s ease-out;
-  transition: background-color .5s, transform .5s ease-out, -webkit-transform .5s ease-out;
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 
 .dark-mode {
@@ -1181,7 +1201,7 @@ textarea:active {
     text-align: left;
   }
   .hero .content .title {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Rajdhani", sans-serif;
     display: block;
     font-size: 3.5em;
     font-weight: 700;
@@ -1204,16 +1224,16 @@ textarea:active {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: .9em;
+    font-size: 0.9em;
     cursor: pointer;
     width: 20em;
     max-width: 100%;
     padding: 2em 0;
-    background: #FFF;
+    background: #fff;
     -webkit-box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
             box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
-    -webkit-transition: all .35s ease;
-    transition: all .35s ease;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
   }
   section.exp .card::before, section.exp .card::after {
     content: "";
@@ -1221,7 +1241,7 @@ textarea:active {
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
     height: 4px;
   }
   section.exp .card::before {
@@ -1229,14 +1249,14 @@ textarea:active {
     opacity: 0;
     -webkit-transition: opacity 0 ease, width 0 ease;
     transition: opacity 0 ease, width 0 ease;
-    -webkit-transition-delay: .5s;
-            transition-delay: .5s;
+    -webkit-transition-delay: 0.5s;
+            transition-delay: 0.5s;
   }
   section.exp .card::after {
     width: 100%;
     background: white;
-    -webkit-transition: width .5s ease;
-    transition: width .5s ease;
+    -webkit-transition: width 0.5s ease;
+    transition: width 0.5s ease;
   }
   section.exp .card .content {
     width: 18em;
@@ -1245,15 +1265,15 @@ textarea:active {
   section.exp .card .logo {
     margin: 0 0 1em;
     max-width: 10.625em;
-    -webkit-transition: all .35s ease;
-    transition: all .35s ease;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
   }
   section.exp .card h2 {
     color: #444444;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
-    font-size: .9em;
+    font-size: 0.9em;
     letter-spacing: 2px;
   }
   section.exp .card .hover_content {
@@ -1261,12 +1281,12 @@ textarea:active {
     max-height: 0;
     -webkit-transform: translateY(1em);
             transform: translateY(1em);
-    -webkit-transition: all .55s ease;
-    transition: all .55s ease;
+    -webkit-transition: all 0.55s ease;
+    transition: all 0.55s ease;
   }
   section.exp .card .hover_content p {
     margin: 1.5em 0 0;
-    color: #6E6E70;
+    color: #6e6e70;
     line-height: 1.4em;
   }
   section.exp .card:hover {
@@ -1277,8 +1297,8 @@ textarea:active {
   section.exp .card:hover::before {
     width: 100%;
     opacity: 1;
-    -webkit-transition: opacity .5s ease, width .5s ease;
-    transition: opacity .5s ease, width .5s ease;
+    -webkit-transition: opacity 0.5s ease, width 0.5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease;
     -webkit-transition-delay: 0;
             transition-delay: 0;
   }
@@ -1289,7 +1309,7 @@ textarea:active {
     transition: width 0 ease;
   }
   section.exp .card:hover .logo {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   section.exp .card:hover .hover_content {
     max-height: 50em;
@@ -1305,7 +1325,7 @@ textarea:active {
     text-align: left;
   }
   .hero .content .title {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Rajdhani", sans-serif;
     display: block;
     font-size: 2.7em;
     font-weight: 700;
@@ -1320,7 +1340,7 @@ textarea:active {
     max-width: 406px;
   }
   .contact p {
-    font-size: .9em;
+    font-size: 0.9em;
     color: #999;
     margin: 0em 0em;
     text-align: justify;
@@ -1338,9 +1358,9 @@ textarea:active {
             box-shadow: none;
     width: 87%;
     margin-top: 1em;
-    font-size: .8em;
+    font-size: 12px;
     padding: 1em;
-    border-radius: .5em;
+    border-radius: 0.5em;
     background: RGBA(255, 255, 255, 0.5);
   }
   textarea:focus {
@@ -1356,9 +1376,9 @@ textarea:active {
             box-shadow: none;
   }
   .btn-submit {
-    margin-top: .8em;
+    margin-top: 0.8em;
     background-color: #67ebff;
-    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
     color: white;
     width: 90%;
     border: none;
@@ -1400,16 +1420,16 @@ textarea:active {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: .9em;
+    font-size: 0.9em;
     cursor: pointer;
     width: 20em;
     max-width: 100%;
     padding: 2em 0;
-    background: #FFF;
+    background: #fff;
     -webkit-box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
             box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
-    -webkit-transition: all .35s ease;
-    transition: all .35s ease;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
   }
   section.exp .card::before, section.exp .card::after {
     content: "";
@@ -1417,7 +1437,7 @@ textarea:active {
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
     height: 4px;
   }
   section.exp .card::before {
@@ -1425,14 +1445,14 @@ textarea:active {
     opacity: 0;
     -webkit-transition: opacity 0 ease, width 0 ease;
     transition: opacity 0 ease, width 0 ease;
-    -webkit-transition-delay: .5s;
-            transition-delay: .5s;
+    -webkit-transition-delay: 0.5s;
+            transition-delay: 0.5s;
   }
   section.exp .card::after {
     width: 100%;
     background: white;
-    -webkit-transition: width .5s ease;
-    transition: width .5s ease;
+    -webkit-transition: width 0.5s ease;
+    transition: width 0.5s ease;
   }
   section.exp .card .content {
     width: 18em;
@@ -1441,15 +1461,15 @@ textarea:active {
   section.exp .card .logo {
     margin: 0 0 1em;
     max-width: 10.625em;
-    -webkit-transition: all .35s ease;
-    transition: all .35s ease;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
   }
   section.exp .card h2 {
     color: #444444;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
-    font-size: .9em;
+    font-size: 0.9em;
     letter-spacing: 2px;
   }
   section.exp .card .hover_content {
@@ -1457,12 +1477,12 @@ textarea:active {
     max-height: 0;
     -webkit-transform: translateY(1em);
             transform: translateY(1em);
-    -webkit-transition: all .55s ease;
-    transition: all .55s ease;
+    -webkit-transition: all 0.55s ease;
+    transition: all 0.55s ease;
   }
   section.exp .card .hover_content p {
     margin: 1.5em 0 0;
-    color: #6E6E70;
+    color: #6e6e70;
     line-height: 1.4em;
   }
   section.exp .card:hover {
@@ -1473,8 +1493,8 @@ textarea:active {
   section.exp .card:hover::before {
     width: 100%;
     opacity: 1;
-    -webkit-transition: opacity .5s ease, width .5s ease;
-    transition: opacity .5s ease, width .5s ease;
+    -webkit-transition: opacity 0.5s ease, width 0.5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease;
     -webkit-transition-delay: 0;
             transition-delay: 0;
   }
@@ -1485,7 +1505,7 @@ textarea:active {
     transition: width 0 ease;
   }
   section.exp .card:hover .logo {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   section.exp .card:hover .hover_content {
     max-height: 50em;
@@ -1493,7 +1513,7 @@ textarea:active {
             transform: none;
   }
   nav {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-right: 4em !important;
     padding-left: 4em !important;
     background-color: white;
@@ -1521,19 +1541,19 @@ textarea:active {
     text-align: left;
   }
   .hero .content .title {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Rajdhani", sans-serif;
     display: block;
     font-size: 2.2em;
     font-weight: 700;
   }
   .hero .content .subtitle {
     font-weight: 400;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
   }
   .hero .content .body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     text-align: justify;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .custom-btn {
     width: 25%;
@@ -1557,7 +1577,7 @@ textarea:active {
     text-align: center;
   }
   .social p {
-    font-size: .8em;
+    font-size: 12px;
     color: #999;
     text-align: center;
   }
@@ -1571,7 +1591,7 @@ textarea:active {
     max-width: 406px;
   }
   .contact p {
-    font-size: .8em;
+    font-size: 12px;
     color: #999;
     margin: 0em 0em;
     text-align: justify;
@@ -1588,10 +1608,10 @@ textarea:active {
     -webkit-box-shadow: none;
             box-shadow: none;
     width: 84%;
-    margin-top: .8em;
+    margin-top: 0.8em;
     padding: 1em;
-    font-size: .8em;
-    border-radius: .5em;
+    font-size: 12px;
+    border-radius: 0.5em;
     background: RGBA(255, 255, 255, 0.5);
   }
   textarea:focus {
@@ -1607,9 +1627,9 @@ textarea:active {
             box-shadow: none;
   }
   .btn-submit {
-    margin-top: .8em;
+    margin-top: 0.8em;
     background-color: #67ebff;
-    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
     color: white;
     width: 90%;
     font-weight: 500;
@@ -1655,17 +1675,17 @@ textarea:active {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: .9em;
+    font-size: 0.9em;
     cursor: pointer;
     width: 20em;
     max-width: 100%;
     padding: 2em 0;
     left: -15px;
-    background: #FFF;
+    background: #fff;
     -webkit-box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
             box-shadow: 0 0 6px 0 rgba(32, 32, 36, 0.12);
-    -webkit-transition: all .35s ease;
-    transition: all .35s ease;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
   }
   section.exp .card::before, section.exp .card::after {
     content: "";
@@ -1673,7 +1693,7 @@ textarea:active {
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
     height: 4px;
   }
   section.exp .card::before {
@@ -1681,14 +1701,14 @@ textarea:active {
     opacity: 0;
     -webkit-transition: opacity 0 ease, width 0 ease;
     transition: opacity 0 ease, width 0 ease;
-    -webkit-transition-delay: .5s;
-            transition-delay: .5s;
+    -webkit-transition-delay: 0.5s;
+            transition-delay: 0.5s;
   }
   section.exp .card::after {
     width: 100%;
     background: white;
-    -webkit-transition: width .5s ease;
-    transition: width .5s ease;
+    -webkit-transition: width 0.5s ease;
+    transition: width 0.5s ease;
   }
   section.exp .card .content {
     width: 18em;
@@ -1697,15 +1717,15 @@ textarea:active {
   section.exp .card .logo {
     margin: 0 0 1em;
     max-width: 10.625em;
-    -webkit-transition: all .35s ease;
-    transition: all .35s ease;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
   }
   section.exp .card h2 {
     color: #444444;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
-    font-size: .9em;
+    font-size: 0.9em;
     letter-spacing: 2px;
   }
   section.exp .card .hover_content {
@@ -1713,12 +1733,12 @@ textarea:active {
     max-height: 0;
     -webkit-transform: translateY(1em);
             transform: translateY(1em);
-    -webkit-transition: all .55s ease;
-    transition: all .55s ease;
+    -webkit-transition: all 0.55s ease;
+    transition: all 0.55s ease;
   }
   section.exp .card .hover_content p {
     margin: 0 0 1.5em 0;
-    color: #6E6E70;
+    color: #6e6e70;
     line-height: 1.4em;
   }
   section.exp .card:hover {
@@ -1729,8 +1749,8 @@ textarea:active {
   section.exp .card:hover::before {
     width: 100%;
     opacity: 1;
-    -webkit-transition: opacity .5s ease, width .5s ease;
-    transition: opacity .5s ease, width .5s ease;
+    -webkit-transition: opacity 0.5s ease, width 0.5s ease;
+    transition: opacity 0.5s ease, width 0.5s ease;
     -webkit-transition-delay: 0;
             transition-delay: 0;
   }
@@ -1741,7 +1761,7 @@ textarea:active {
     transition: width 0 ease;
   }
   section.exp .card:hover .logo {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   section.exp .card:hover .hover_content {
     max-height: 50em;
@@ -1757,16 +1777,16 @@ textarea:active {
     text-align: center;
   }
   .hero .content .title {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: "Rajdhani", sans-serif;
     display: block;
     font-size: 2.55em;
     font-weight: 700;
   }
   .hero .content .subtitle {
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     font-weight: 400;
-    margin: -.3em 0 0 0;
-    font-size: .8em;
+    margin: -0.3em 0 0 0;
+    font-size: 12px;
   }
   .hero .content .body {
     text-align: justify;
@@ -1792,7 +1812,7 @@ textarea:active {
     max-width: 100%;
   }
   nav {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-right: 2em !important;
     padding-left: 2em !important;
     background-color: white;
@@ -1830,7 +1850,7 @@ textarea:active {
     text-align: center;
   }
   .social p {
-    font-size: .8em;
+    font-size: 12px;
     color: #999;
     text-align: center;
   }
@@ -1844,7 +1864,7 @@ textarea:active {
     max-width: 406px;
   }
   .contact p {
-    font-size: .9em;
+    font-size: 0.9em;
     color: #999;
     margin: 0em 0em;
     text-align: justify;
@@ -1862,9 +1882,9 @@ textarea:active {
             box-shadow: none;
     width: 89%;
     margin-top: 1em;
-    font-size: .8em;
+    font-size: 12px;
     padding: 1em;
-    border-radius: .5em;
+    border-radius: 0.5em;
     background: RGBA(255, 255, 255, 0.5);
   }
   textarea:focus {
@@ -1880,9 +1900,9 @@ textarea:active {
             box-shadow: none;
   }
   .btn-submit {
-    margin-top: .8em;
+    margin-top: 0.8em;
     background-color: #67ebff;
-    background: linear-gradient(315deg, #2D99DE 50%, #67ebff 100%);
+    background: linear-gradient(315deg, #2d99de 50%, #67ebff 100%);
     color: white;
     width: 90%;
     font-weight: 500;

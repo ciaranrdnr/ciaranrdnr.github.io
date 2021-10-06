@@ -40,6 +40,11 @@ html a.container.container-exp.col-sm {
   text-decoration: none;
 }
 
+a.container.container-exp.col-sm {
+  color: #424242;
+  text-decoration: none;
+}
+
 ::-moz-selection {
   color: white;
   background: #ff7192;
